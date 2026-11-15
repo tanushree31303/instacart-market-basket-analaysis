@@ -1,0 +1,10 @@
+Metric,Apriori,FP-Growth
+Execution Time (Itemset Mining),21.31 s,8.72 s
+Peak Memory Usage (MB),2241.71 MB,20.01 MB
+Frequent Itemsets Discovered,441,441
+Association Rules Generated,362,362
+Mean Support of Rules,0.0078,0.0078
+Mean Confidence of Rules,0.1458,0.1458
+Mean Lift of Rules,2.06,2.06
+Maximum Lift Observed,8.93,8.93
+Candidate Generation Required?,Yes (Iterative BFS Level-by-Level),No (Compact Prefix FP-Tree)

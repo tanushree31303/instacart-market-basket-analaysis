@@ -59,7 +59,10 @@ Unlike typical machine learning models where you predict True/False, a recommend
 
 ## 🗂️ Dataset & Data Pipeline
 
-The project uses the official **Instacart Market Basket Analysis dataset**:
+The project uses the official **Instacart Market Basket Analysis dataset**, which can be downloaded directly from Kaggle:
+👉 **[Download Dataset from Kaggle (psparks/instacart-market-basket-analysis)](https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis)**
+
+Download and extract the CSV files directly into the root project directory:
 
 | File | Records / Shape | Description |
 | :--- | :--- | :--- |
@@ -220,11 +223,12 @@ mba/
 
 ## 🚀 How to Run This Project
 
-### 1. Prerequisites
-Ensure you have Python 3.9+ installed along with the required libraries:
+### 1. Prerequisites & Dataset Download
+1. Install Python 3.9+ along with required libraries:
 ```bash
 pip install pandas numpy matplotlib seaborn mlxtend jupyter
 ```
+2. Download the dataset CSV files from [Kaggle: Instacart Market Basket Analysis](https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis) and place them in the project folder.
 
 ### 2. Launch the Jupyter Notebook
 Navigate to the project directory and start Jupyter:
@@ -254,4 +258,4 @@ Inside the notebook, Section 18 provides an interactive text box where you can i
 ---
 
 *Author: Data Science & AI Engineering Portfolio*  
-*Dataset: Instacart Market Basket Analysis (Open Access)*
+*Dataset Source: [Kaggle - Instacart Market Basket Analysis (psparks)](https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis)*

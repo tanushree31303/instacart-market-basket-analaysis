@@ -1,0 +1,15 @@
+# Raw Instacart datasets (download from Kaggle: https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis)
+orders.csv
+order_products__prior.csv
+order_products__train.csv
+products.csv
+aisles.csv
+departments.csv
+
+# Python / Jupyter artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+test_builder.py
+.env
