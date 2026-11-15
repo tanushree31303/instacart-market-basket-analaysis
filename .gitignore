@@ -6,6 +6,13 @@ products.csv
 aisles.csv
 departments.csv
 
+# Generated output artifacts (generated automatically by running the notebook)
+frequent_itemsets.csv
+model_comparison.csv
+recommendation_evaluation.csv
+rules_apriori.csv
+rules_fpgrowth.csv
+
 # Python / Jupyter artifacts
 .ipynb_checkpoints/
 __pycache__/
